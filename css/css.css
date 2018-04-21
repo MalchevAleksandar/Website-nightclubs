@@ -1,0 +1,132 @@
+  #navbar{
+
+
+    border-bottom: 0;
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+#footer
+{
+	
+	font-size: 25px;
+
+
+}
+#cinema
+{
+	
+	width: 300px;
+	height: 250px;
+}
+#midnight
+{
+	width: 300px;
+	height: 250px;
+	
+
+}
+#XO
+{
+	
+	width: 300px;
+	height: 250px;
+}
+
+.fade1 {
+	margin-top: 100px;
+	
+	border: 0;
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade1:hover {
+      opacity: 0.5;
+      }
+
+  .well
+  {
+  	background-color: white;
+    
+  }
+  #home
+  {
+  	margin-left: 30%;
+    color:#b38600;
+      font-size: 25px;
+  }
+  #galery
+  { 
+    color:#b38600;
+
+      font-size: 25px;
+  }
+  #event
+  {
+    color:#b38600;
+      font-size: 25px;
+  }
+  #contact
+  {
+    color:#b38600;
+      font-size: 25px;
+  }
+  
+.carousel-control
+{
+  display:none !important;
+}
+
+  #in > .item > img {
+      width: 1250px;
+      height: 450px;
+  }
+  #in2 > .item > img {
+      width: 374px;
+      height: 225px;
+  }
+/*.carousel-caption
+{
+  margin-right: 500px;
+  margin-bottom: 300px;
+}*/
+.back-to-top
+{
+ 
+  font-size:50px;
+  color:#b38600; 
+}
+#kopcetop:hover,#kopcetop:visited,#kopcetop:link,#kopcetop:active{
+
+  color:#b38600;
+}
+#XOpocetna
+{
+  width: 100%;
+  height: 500px;
+}
+#sliki
+{
+  width: 300px;
+  height: 200px;
+}
+ul
+{
+  list-style-type: none;
+}
+#logo
+{
+  width: 100%;
+  height: 600px;
+}
+  #events
+  {
+      width: 100%;
+      height: 200px;
+  }
+
+

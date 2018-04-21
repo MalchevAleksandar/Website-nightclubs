@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Events</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	
+	<link href="css/css.css" rel="stylesheet">
+	<link rel="stylesheet"href="css/jquery-ui.css">
+	<script  src= 'js/jquery.js'></script>
+	<script   src="js/jquery-ui.js"></script>
+	<script  src="js/bootstrap.js"></script>
+	<script src="js/scripta.js"></script>
+	<style>
+	body
+	{
+		background: url("Sliki/background.jpg");
+		display:table;
+        width: 100%;
+        height:100%;
+            -webkit-background-size: cover;
+             -moz-background-size: cover;
+             background-size: cover;
+             -o-background-size: cover;;
+		
+	}
+	.social { list-style:none; margin-top:10px;  padding-left: 0px;  width:464px; }
+	.social li { display:inline; float:left; background-repeat:no-repeat; padding-left: 5px;}
+	.social li a { display:block; width:48px; height:48px; padding-right:10px; position:relative; text-decoration:none; }
+	.social li a strong { font-weight:normal; position:absolute; left:20px; top:-1px; color:#fff; padding:3px; z-index:9999;
+		text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); background-color:rgba(0, 0, 0, 0.7);
+		-moz-border-radius:3px; -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); -webkit-border-radius:3px; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	}
+
+
+	li.facebook { background-image:url("images/facebook.png"); }
+	li.twitter { background-image:url("images/twitter.png"); }
+	li.instagram { background-image:url("images/Instagram.jpg"); }
+	li.snapchat { background-image:url("images/snapchat.jpg"); }
+
+
+		.row{
+			margin-bottom: 50px;
+		}
+</style>
+
+
+</head>
+<body>
+	<nav id="navbar"class="navbar   navbar-top">
+    
+
+    <div class="container">
+
+
+        <div style="width: 250px;padding-top: 10px; padding-bottom: 10px;" class="pull-right">
+            <div class="input-group" >
+                <input class="form-control" type="text" id="search" placeholder="Search club" >
+                        <span class="input-group-btn ">
+                            <button class="btn btn-default" type="button" id="btn-search">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+            </div>
+
+        </div>
+    </div>
+         <div class="container" style="background-color: rgb(255,255,204);height: 60px;padding-top: 7px;">
+
+             <a id="home" class="navbar-brand" href="home.html" >Почетна</a>
+             <a id="galery" class="navbar-brand" href="galery.html" style="margin-right: 10px;margin-left: 1px;">Галерија</a>
+             <a id="event" class="navbar-brand" href="events.html"style="background-color:rgb(255,255,164); margin-left: 1px; margin-right: 10px;">Настани</a>
+             <a id="contact" class="navbar-brand" href="contactus.html" style="margin-left: 5px;">Контакт</a>
+
+
+         </div>
+</nav>
+	<div class="container" >
+		<div class="well" style="background-color: black ;border: 0px;	">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 style="color: white">Настани кои ве очекуваат овој викенд во Скопје</h2>
+				</div>
+			</div>
+			<div class="row"  >
+				<div class="col-md-6 " style="color: white;">
+					<button  type="button" data-toggle="modal" data-target="#event1	" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Ciao1.jpg" >  </button>
+					<h3>Caffe Ciao </h3>
+					<p>
+						Caffe Ciao team presents : <br>
+						Shorts meets  HIPHOP SHOTS со	DJ BOOGIEMAN <br>
+						Сабота 2 Јули  <br>
+						Почеток 21:30
+					</p>
+
+				</div>
+
+				<div class="modal fade" id="event1" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Caffe Ciao</h3>
+							</div>
+							<div class="modal-body">
+
+							<img src="Event/Ciao1.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+								<strong> <h3>Caffe Ciao team ви ја претставува најдобрата забава оваа сабота : <br>
+									Shorts meets  HIPHOP SHOTS со	DJ BOOGIEMAN </h3>
+									<br>
+									<p style="font-size: 20px;">
+									Сабота 2 Јули <br>
+									Почеток 21:30
+								<br>
+									<br>
+									Резервација и информации на бројот: <br>
+								<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 070/237-169
+									</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+
+
+
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event2" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Ciao2.jpg" ></button>
+					<h3>Caffe Ciao </h3>
+					<p>Caffe Ciao team presents: <br>
+						Sundaylicious со Irie Scratch <br>
+						Недела 3 Јули	<br>
+						Почеток 21:30
+					</p>
+				</div>
+				<div class="modal fade" id="event2" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Caffe Ciao</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Ciao2.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3>Caffe Ciao team ви претставува : <br>
+										Sundaylicious со Irie Scratch </h3>
+										<br>
+								<p style="font-size: 20px;">
+								Недела 3 Јули <br>
+									Почеток 21:30
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 075/696-673
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+			</div id=>
+			<div class="row">
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event3" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Cinema1.jpg"></button>
+					<h3>Club Cinema </h3>
+					<p>Караоке шоу  со Ненад Ѓорѓиевски <br>
+						Среда 6 Јули  <br>
+						Почеток 23:58
+					</p>
+				</div>
+				<div class="modal fade" id="event3" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Cinema</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Cinema1.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Оваа среда Club Cinema ве поканува на караоке шоу за кој е задолжен Ненад Ѓорѓиевски.
+										Уживајте и забавувајте се во ритамот на најголемите хитови и секако на нашите домашни најпознати песни.
+									</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Среда 6 Јули <br>
+									Почеток: 23:58 <br>
+								Влез: Слободен
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 075/496-673
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event4" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Cinema2.jpg"> </button>
+					<h3>Club Cinema </h3>
+					<p>Во живо со  Браво Бенд <br>
+						Петок 1 Јули <br>
+						Почеток 00:00
+					</p>
+				</div>
+				<div class="modal fade" id="event4" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Cinema</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Cinema2.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Овој петок Club Cinema ве поканува на најдобрата забава за којa ќе бидат задолжени Bravo Bend.
+										Вечер на која мора да се присуствува, уживајте и забавувајте се во ритамот на најголемите хитов и секако на нашите домашни најпознати песни.
+									</h3>
+										<br>
+								<p style="font-size: 20px;">
+								Промоција: <br>
+								1 литар Jegermaister 1499 денари <br>
+								1 литар Водка 1199 денари<br><br>
+									Петок 1 Јули <br>
+									Почеток: 00:00 <br>
+									Влез: 100 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 075/286-173
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event5" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Havana1.jpg"></button>
+					<h3>Club Havana </h3>
+					<p>Марчело <br>
+						Петок 1 Јули <br>
+						Почеток 00:00
+					</p>
+				</div>
+				<div class="modal fade" id="event5" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Havana</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Havana1.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Club Havana ве поканува на незаборавна забава овој петок на која ќе ве забавува неповторливиот Марчело.
+										Бидете дел од оваа спектакуларна вечер и поздравете се со местото каде што сите имаме моменти кои уште
+										долго ќе ги паметиме како,што доликува.
+									</h3>
+										<br>
+								<p style="font-size: 20px;">
+								Промоција: <br>
+								750 ml Jack Daniels 1390 денари <br>
+								1 l  Smirnoff 1190 денари <br> <br>
+									Петок 1 Јули <br>
+									Почеток: 00:00 <br>
+									Влез: 200 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 075/696-173
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event6" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Havana2.jpg"></button>
+					<h3>Club Havana </h3>
+					<p>Space Tribe + Mad tribe <br>
+						Сабота 2 Јули <br>
+						Почеток 23:55
+					</p>
+				</div>
+				<div class="modal fade" id="event6" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Havana</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Havana2.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Оваа Сабота во Club Havana  за најдобрата журка ќе се погрижат Space Tribe + Mad tribe
+									</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Сабота 2 Јули <br>
+									Почеток: 23:55 <br>
+									Влез: 200 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 072/376-173
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event7" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Marakana1.jpg"></button>
+					<h3>Club Marakana </h3>
+					<p>KOLT <br>
+						Сабота 2 Јули <br>
+						Почеток 23:59
+					</p>
+				</div>
+				<div class="modal fade" id="event7" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Marakana</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Marakana1.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> И оваа сабота Club Marakana ќе се погрижи за најдобрата журка  заедно со Kolt
+									</h3>
+										<br>
+								<p style="font-size: 20px;">
+								Промоција: <br>
+								750 ml Jonny Walker 1390 денари <br>
+								1 l  Smirnoff 1190 денари <br> <br>
+									Сабота 2 Јули <br>
+									Почеток: 23:59 <br>
+									Влез: 150 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 072/396-480
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event8" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Marakana2.jpg"></button>
+					<h3>Club Marakana</h3>
+					<p>BROOM   <br>
+						Петок 1 Јули <br>
+						Почеток 00:00
+					</p>
+				</div>
+				<div class="modal fade" id="event8" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Marakana</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Marakana2.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Овој Петок во Club Marakana ќе ве забавуваат  Broom
+									</h3>
+										<br>
+								<p style="font-size: 20px;">
+								Промоција: <br>
+								1 литар Badel 999 денари <br>
+								1 литар Pelinkovac 1199 денари<br><br>
+									Петок 1 Јули <br>
+									Почеток: 00:00 <br>
+									Влез: 200 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 072/376-173
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event9" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Midnight1.jpg"></button>
+					<h3>Club Midnight </h3>
+					<p>Commercial Night  со DJ COBE <br>
+						Сабота 2 Јули <br>
+						Почеток 00:00
+					</p>
+				</div>
+				<div class="modal fade" id="event9" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Midnight</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Midnight1.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Оваа Сабота во Club Midnight  Commercial Night со најдобриот DJ Cobe									</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Промоција: <br>
+									1 литар Jack Daniels 1399 денари <br>
+									1 литар Smirnoff 1199 денари<br><br>
+									Сабота 2 Јули <br>
+									Почеток: 00:00 <br>
+									Влез: 150 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 070/176-973
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event10" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Midnight2.jpg"></button>
+					<h3>Club Midnight </h3>
+					<p>DJ MARGA SOL  <br>
+							Недела 3 Јули <br>
+						Почеток 23:30
+					</p>
+				</div>
+				<div class="modal fade" id="event10" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Midnight</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Midnight2.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Оваа Недела Club Midnight ве поканува на најдобрата журка со DJ Marga SOL									</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Промоција: <br>
+									1 литар Pelinkovac 1399 денари <br>
+									1 литар Aleksandria 599 денари<br><br>
+									Недела 3 Јули <br>
+									Почеток: 23:30 <br>
+									Влез: 100 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 070/176-973
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event11" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Paradiso2.jpg"></button>
+					<h3>Club Paradiso </h3>
+					<p>DJ Latin Prince <br>
+						Недела 3 Јули <br>
+						Почеток 00:00
+					</p>
+				</div>
+				<div class="modal fade" id="event11" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Paradiso</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Paradiso2.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Оваа Недела во Club Paradiso за најдобрата журка ќе се погрижи  DJ Latin Prince заедно со DJ Shorty P									</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Промоција: <br>
+									1 литар Red Label 1299 денари <br>
+									1 литар Absolut Vodka 1199 денари<br><br>
+									Недела 3 Јули <br>
+									Почеток: 00:00 <br>
+									Влез: 100 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 071/176-973
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event12" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Stobi1.jpg"></button>
+					<h3>Caffe Stobi </h3>
+					<p>007 Party со DJ Filip <br>
+						Петок 1 Јули <br>
+						Почеток 21:30
+					</p>
+				</div>
+				<div class="modal fade" id="event12" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Caffe Stobi</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Stobi1.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Овoj petok во Caffe Stobi најдобрата  понуда на вино надополнета со музика од  DJ Filip									</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Промоција: <br>
+									1 литар Stobi Cuve 499 денари <br>
+									1 литар Stobi Pino Noar 399 денари<br><br>
+									Недела 3 Јули <br>
+									Почеток: 21:30 <br>
+									Влез: 100 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 078/176-073
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event13" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Stobi2.jpg"></button>
+					<h3>Caffe Stobi </h3>
+					<p> Love Party Vol.2 со Dj Babura Junior <br>
+						Сабота 2 Јули <br>
+						Почеток 21:30
+					</p>
+				</div>
+				<div class="modal fade" id="event13" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Caffe Stobi</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Stobi2.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Caffe Stobi и овој пат ја организира најдобрата Love Party Vol.2 со Dj Babura Junior									</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Промоција: <br>
+									1 литар Black Label 1399 денари <br>
+									1 литар Ouzo 1199 денари<br><br>
+									Сабота 2 Јули <br>
+									Почеток: 21:30 <br>
+									Влез: Бесплатен
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 070/176-973
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event14" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Xo1.jpg"></button>
+					<h3>Club XO </h3>
+					<p>Animal Party со Dj Dimitris Patsis <br>
+						Петок 1 Јули <br>
+						Почеток 23:30
+					</p>
+				</div>
+				<div class="modal fade" id="event14" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club XO</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Xo1.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> Club Xo ја организира најдобрата Animal Party и овој петок со Dj Dimitris Patsis									</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Промоција: <br>
+									1 литар Jonny Walker 1399 денари <br>
+									1 литар Ouzo 1199 денари<br><br>
+									Петок 1 Јули <br>
+									Почеток: 23:30 <br>
+									Влез: 100 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 078/176-973
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event15" style="padding: 0px; border: 0px;">
+					<img id="events" src="Event/Xo2.jpg"></button>
+					<h3>Club XO </h3>
+					<p>Finest Hip Hop & RNB со Dj Davor и Dj Ivan <br>
+						Сабота 2 Јули <br>
+						Почеток 00:00
+					</p>
+				</div>
+				<div class="modal fade" id="event15" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Xo</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Xo2.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3>И оваа Сабота во Club XO ќе се слушаат Finest Hip Hop & RNB со Dj Davor и Dj Ivan								</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Промоција: <br>
+									750 ml Smirnoff + 4 Pelisterka + 1l Juice 2000 денари <br>
+									J&B + 4 Pelisterka + 1l Juice 2500 денари <br>
+									1 Jonny Walker + 4 Pelisterka + 1l Juice 2500 денари<br><br>
+									Сабота 2 Јули <br>
+									Почеток: 00:00 <br>
+									Влез: 150 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 070/176-973
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event16" style="padding: 0px; border: 0px;">
+						<img id="events" src="Event/Paradiso1.jpg"></button>
+					<h3>Club Paradiso </h3>
+					<p>DJ Ricardo <br>
+						Сабота 2 Јули <br>
+						Почеток 00:00
+					</p>
+				</div>
+				<div class="modal fade" id="event16" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Paradiso</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/Paradiso1.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Оваа Сабота најдобрите House and Hits во Club Paradiso заедно со DJ Ricardo									</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Промоција: <br>
+									1 литар Black Label 1299 денари <br>
+									1 литар Absolut Vodka 1199 денари<br><br>
+									Сабота 2 Јули <br>
+									Почеток: 00:00 <br>
+									Влез: 100 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 078/176-973
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event17" style="padding: 0px; border: 0px;">
+						<img id="events" src="Event/sektor1.jpg" ></button>
+					<h3>Club Sector 909 </h3>
+					<p>Ilina Angel & Nino Naumov <br>
+						Петок 1 Јули <br>
+						Почеток 00:00
+					</p>
+				</div>
+				<div class="modal fade" id="event17" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Sector 909</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/sektor1.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3>И овој Петок во Club Sector 909 ќе се слушаат најдобрите хитови со Ilina Angel & Nino Naumov								</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Промоција: <br>
+									750 ml Smirnoff  1290 денари <br>
+									1 Jonny Walker 1500 денари<br><br>
+									Петок 1 Јули <br>
+									Почеток: 00:00 <br>
+									Влез: Бесплатен
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 070/176-973
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+				<div class="col-md-6" style="color: white">
+					<button  type="button" data-toggle="modal" data-target="#event18" style="padding: 0px; border: 0px;">
+						<img id="events" src="Event/sektor2.jpg"></button>
+					<h3>Club Sector 909 </h3>
+					<p>Александар Мишкоски и Самоил Радински <br>
+						Сабота 2 Јули <br>
+						Почеток 00:00
+					</p>
+				</div>
+				<div class="modal fade" id="event18" >
+					<div class="modal-dialog" >
+						<div class="modal-content" style="background-color: rgb(255,255,204)">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title">Club Sector 909</h3>
+							</div>
+							<div class="modal-body">
+
+								<img src="Event/sektor2.jpg" class="img-responsive">
+								<br>
+								<br>
+								<p>
+									<strong> <h3> Оваа Сабота ќе ги слушате најдобрите Summer Hits  заедно со Александар Мишкоски и Самоил Радински									</h3>
+										<br>
+								<p style="font-size: 20px;">
+									Промоција: <br>
+									1 литар Black Label 1299 денари <br>
+									1 литар Absolut Vodka 1199 денари<br><br>
+									Сабота 2 Јули <br>
+									Почеток: 00:00 <br>
+									Влез: 100 денари
+									<br>
+									<br>
+									Резервација и информации на бројот: <br>
+									<span class="glyphicon glyphicon-phone-alt"></span> &nbsp; 070/176-973
+								</p>
+								</strong>
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div>
+			</div>
+	</div>
+	</div>
+</div>
+	<div class="container">
+	<div id="footer" class="navbar navbar-bottom">
+		<div class="pull-left">
+			<ul class="social" id="jquery">
+
+				<li class="facebook">
+					<a href="http://www.facebook.com/"><strong>Facebook</strong></a>
+				</li>
+				<li class="twitter">
+					<a href="http://twitter.com/"><strong>Twitter</strong></a>
+				</li>
+				<li class="instagram">
+					<a href="http://instagram.com/"><strong>Instagram</strong></a>
+				</li>
+				<li class="snapchat">
+					<a href="http://snapchat.com/"><strong>Snapchat</strong></a>
+				</li>
+			</ul>
+		</div>
+
+
+		<a id="kopcetop" href="#" class="back-to-top pull-right" style="display: inline;">
+ 
+<i class="fa fa-arrow-circle-up"></i>
+ 
+</a>	
+
+	</div>
+</div>
+
+</body>
+</html>
